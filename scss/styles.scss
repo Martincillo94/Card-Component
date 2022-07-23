@@ -21,11 +21,16 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
   color: $paragraphs;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  place-items: center;
+
 }
 
 .card {
   background-color: white;
-  margin: 20px auto;
+  margin: auto;
   width: 344px;
   height: 610px;
   border-radius: 0.5rem;
@@ -110,9 +115,9 @@ body {
   }
 }
 .attribution {
+  display: inline-block;
   text-align: center;
   width: 80%;
-  margin: auto;
   a:nth-child(2) {
     font-weight: bold;
   }
